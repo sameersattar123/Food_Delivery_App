@@ -2,7 +2,7 @@ import React from 'react'
 import { menu } from '@/data'
 import Link from 'next/link' 
 
-const MenuPage  = () => {
+const Menu  = () => {
   return (
     <div className='p-4 lg:px-20 xl:px-40 flex flex-col md:flex-row h-[calc(100vh-6rem)]  md:h-[calc(100vh-9rem)] items-center '>
     {
@@ -22,4 +22,4 @@ const MenuPage  = () => {
   )
 }
 
-export default MenuPage
+export default Menu
